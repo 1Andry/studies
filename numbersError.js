@@ -1,9 +1,9 @@
 const FizzBuzz = (begin,end)=>{
-    for (let i = begin; begin < end; i++) { 
+    for (const  i = begin; begin < end; i++) { 
         if (i%3===0 && i%5===0){
             console.log("FizzBuzz");
         }
-        else if(i%5===0){
+        else if(i.%5===0){
             console.log("Buzz");
         }
         else if(i%3===0){
@@ -17,4 +17,4 @@ const FizzBuzz = (begin,end)=>{
         }
     }
     }
-    console.log(FizzBuzz(0,44))
+    console.log(Fizz(0,44,))        
