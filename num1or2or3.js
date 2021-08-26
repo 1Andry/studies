@@ -1,6 +1,6 @@
 const randomNum = (num1, num2, num3)=>{
 if(num1 == num2 == num3){
-    console.log("числа равны" );
+    console.log("числа равны");
 }
 else if(num1>num2 && num1>num3){
     console.log("наибольшее число:" + num1 );
