@@ -1,7 +1,7 @@
-let num = 1;
+let num = 0;
 while (num < 99) {
     if (num % 2 !== 0) {
-        console.log(num);
+        console.log( num );
     }
     num++;
 };
