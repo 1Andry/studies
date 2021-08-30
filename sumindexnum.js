@@ -1,5 +1,5 @@
 const sumIndwxNum = num => {
-    num = (num).toString();
+    num = String(num);
     let i = 0
     let result = 0;
     while (i < num.length){
@@ -12,6 +12,6 @@ const sumIndwxNum = num => {
     else return result;
 };
 
-console.log(sumIndwxNum (13));
+console.log(sumIndwxNum (38));
 
 
