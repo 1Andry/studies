@@ -10,4 +10,4 @@ const divisionChek = num => {
         
     }  
 };
-console.log(divisionChek(8))
+console.log(divisionChek(8));
