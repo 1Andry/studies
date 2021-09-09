@@ -1,13 +1,11 @@
 const divisionChek = num => {
-    for (i = 0; i <= num; i++){
-        if( num === Math.pow(3,i) ){
-            console.log(i)
-        return true     
+    for (i = 1; i <= num; i++){
+        if( num === Math.pow(3,i)) {
+            return "true "  
+            
+        } else {
+            // return "false"  //если раскоментировать цикл не выполняется, всегда возвращает "false", не могу понять почему
         }      
-        else {
-            false
-        } 
-        
     }  
 };
-console.log(divisionChek(8));
+console.log(divisionChek(27));
