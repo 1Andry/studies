@@ -1,3 +1,4 @@
+"use strix"
 const money = [ "usd 2", "eur 4", "usd 8", "eur 4", "rub 50",]
 const getTotalMoney = (money, name) => {
     let result = 0;
